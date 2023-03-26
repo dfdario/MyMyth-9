@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mythmenu name="UTILITIES">
+
+    <button>
+        <type>TV GUIDE</type>
+        <text>Scarica GuidaTV</text>
+        <description>Mythtv TV Guide...</description>
+        <action>EXEC mythfill.sh</action>
+    </button>
+
+    <button>
+        <type>MYTHTV SETUP</type>
+        <text>Configura Mythtv</text>
+        <description>Mythtv Configuration...</description>
+        <action>EXEC sudo x-terminal-emulator -e /usr/local/bin/utilities.sh "MYTHTV_SETUP"</action>
+    </button>
+
+    <button>
+        <type>RESTORE_MENU</type>
+        <text>Ripristina Menu</text>
+        <description>Restore Menu Configuration...</description>
+        <action>EXEC sudo x-terminal-emulator -e /usr/local/bin/utilities.sh "MENU_RESTORE"</action>
+    </button>
+
+    <button>
+        <type>LOCAL_REPO</type>
+        <text>Agg. Repo Locale e USB</text>
+        <description>Recreate Local Repository and Update...</description>
+        <action>EXEC sudo x-terminal-emulator -e /usr/local/bin/utilities.sh "LOCAL_REPO"</action>
+    </button>
+</mythmenu>
+
