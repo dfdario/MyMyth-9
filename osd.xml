@@ -245,8 +245,7 @@
             <font>small</font>
             <area>15,75,1534,45</area>
             <align>hcenter,bottom</align>
-           <template>%PLAYEDTIME% of %TOTALTIME%
-%(|REMAININGTIME| remaining)%%(|BEHINDTIME| behind)%</template>
+           <template>%DESCRIPTION% %(|REMAININGTIME|)%%(|BEHINDTIME|)%%VALUE%%UNITS%</template>
         </textarea>
         <textarea name="recordedtime">
             <font>basesmallgrey</font>
