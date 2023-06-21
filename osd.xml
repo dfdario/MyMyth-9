@@ -241,11 +241,12 @@
             <area>15,15,1219,45</area>
             <align>left,top</align>
         </textarea>
-        <textarea name="description">
+        <textarea name="playedtime">
             <font>small</font>
             <area>15,75,1534,45</area>
             <align>hcenter,bottom</align>
-           <template>%DESCRIPTION% %(|REMAININGTIME|)%%(|BEHINDTIME|)%%VALUE%%UNITS%</template>
+            <!-- <template>%DESCRIPTION% %(|REMAININGTIME|)%%(|BEHINDTIME|)%%VALUE%%UNITS%</template> -->
+            <template>%PLAYEDTIME% of %TOTALTIME% %(|REMAININGTIME| remaining)%%(|BEHINDTIME| behind)%</template>
         </textarea>
         <textarea name="recordedtime">
             <font>basesmallgrey</font>
